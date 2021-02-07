@@ -24,7 +24,7 @@ import { HeaderComponent } from './components/templates/header/header.component'
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

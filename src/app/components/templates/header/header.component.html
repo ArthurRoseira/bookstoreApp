@@ -1,26 +1,26 @@
 <mat-toolbar class='mat-elevation-z8 navbar' color='primary'>
- <div>
-  <button mat-button class='toggle'>
-   <i class="material-icons">
-    menu
-   </i>
-  </button>
- </div>
- <div>
-  <a href="">
-   <span class='logo'>THE BOOKSTORE</span>
-  </a>
- </div>
- <div>
-  <a href="">
-   <span>
-    <i class="material-icons">home</i>
-    home</span>
-  </a>
-  <a href="suporte/" routerLink='suporte/'>
-   <span>
-    <i class="material-icons">contact_support</i>
-    Suporte</span>
-  </a>
- </div>
+  <div>
+    <button mat-button class='toggle' (click)="onToggleSidenav()">
+      <i class="material-icons">
+        menu
+      </i>
+    </button>
+  </div>
+  <div>
+    <a href="">
+      <span class='logo'>THE BOOKSTORE</span>
+    </a>
+  </div>
+  <div>
+    <a href="">
+      <span>
+        <i class="material-icons">home</i>
+        home</span>
+    </a>
+    <a href="suporte/" routerLink='suporte/'>
+      <span>
+        <i class="material-icons">contact_support</i>
+        Suporte</span>
+    </a>
+  </div>
 </mat-toolbar>
