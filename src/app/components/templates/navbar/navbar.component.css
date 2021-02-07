@@ -1,3 +1,20 @@
 mat-sidenav-content{
  background-color: aliceblue;
 }
+
+mat-sidenav{
+ width: 250px;
+}
+
+.menuBtns{
+ list-style-type: none;
+ padding: 0;
+ margin-top: 30px;
+}
+
+.menuBtn{
+ width: 100%;
+ padding: 10px;
+ font-size: larger;
+}
+

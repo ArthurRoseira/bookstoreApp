@@ -13,3 +13,25 @@
  margin-left: 30px;
  margin-right: 30px;
 }
+
+
+.bestSellers{
+ width: 100vw;
+ margin-top: 20px;
+ margin-left: 8vw;
+}
+
+.sellersTitle{
+ color: black;
+ width: 80%;
+ text-align: center;
+}
+
+.content{
+ display: flex;
+ justify-content: center;
+}
+
+mat-card{
+ text-align: center;
+}

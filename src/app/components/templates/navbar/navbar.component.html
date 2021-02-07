@@ -1,6 +1,20 @@
 <mat-sidenav-container>
  <mat-sidenav #sidenav role='navigation'>
-  <p>SideNav</p>
+  <ul class='menuBtns'>
+   <li>
+    <button mat-raised-button class='menuBtn'><i class="material-icons">home</i>Home</button>
+   </li>
+   <li>
+    <button mat-raised-button class='menuBtn'><i class="material-icons">store</i>Books</button>
+   </li>
+   <li>
+    <button mat-raised-button class='menuBtn'><i class="material-icons">shopping_cart</i>Your Cart</button>
+   </li>
+   <li>
+    <button mat-raised-button class='menuBtn'><i class="material-icons">contact_support</i>Support</button>
+   </li>
+  </ul>
+
  </mat-sidenav>
  <mat-sidenav-content>
   <app-header (sidenavToggle)='sidenav.toggle()'></app-header>

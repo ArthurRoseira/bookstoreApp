@@ -9,4 +9,30 @@
    </mat-carousel-slide>
   </mat-carousel>
  </div>
+ <div class='bestSellers'>
+  <div>
+   <h2 class='sellersTitle'>Best Sellers</h2>
+  </div>
+  <div class="content">
+   <div fxLayout="row wrap" fxLayoutGap="16px">
+    <div fxFlex="25%" *ngFor="let num of [1,2,3]">
+     <mat-card class="mat-elevation-z4">
+      <mat-card-header>
+       <mat-card-title>Mountains {{num}}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="../../../assets/img/banner_2.png">
+      <mat-card-content>
+       <p>
+        The Himalayas is a mountain range in Asia.
+       </p>
+      </mat-card-content>
+      <mat-card-actions>
+       <button mat-button>LIKE</button>
+       <button mat-button>SHARE</button>
+      </mat-card-actions>
+     </mat-card>
+    </div>
+   </div>
+  </div>
+ </div>
 </section>
