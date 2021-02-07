@@ -30,8 +30,27 @@
 .content{
  display: flex;
  justify-content: center;
+ align-items: stretch;
 }
 
 mat-card{
  text-align: center;
+}
+mat-card-title{
+ text-align: center;
+}
+
+.carTitle{
+ height: 8vh; 
+ object-fit: contain;
+}
+
+.cover{
+ height: 30vh; 
+ object-fit: contain;
+}
+
+.cardContent{
+ height: 15vh; 
+ object-fit: contain;
 }
