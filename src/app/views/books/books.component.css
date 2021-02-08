@@ -1,0 +1,40 @@
+.content{
+ width: 100vw;
+ margin-top: 20px;
+ margin-left: 10px;
+}
+.divWrap{
+ display: flex;
+ justify-content: center;
+}
+
+mat-card{
+ text-align: center;
+ width: 300px;
+ margin-bottom: 16px;
+}
+mat-card-title{
+ text-align: center;
+}
+
+.carTitle{
+ height: 8vh; 
+ object-fit: contain;
+}
+
+.cover{
+ height: 30vh; 
+ object-fit: contain;
+}
+
+.cardContent{
+ height: 5vh; 
+ object-fit: contain;
+}
+
+p{
+ display: -webkit-box;
+ -webkit-line-clamp: 2;
+ overflow: hidden;
+ -webkit-box-orient: vertical; 
+}

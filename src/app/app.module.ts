@@ -10,6 +10,8 @@ import { NavbarComponent } from './components/templates/navbar/navbar.component'
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/templates/header/header.component';
+import { BooksComponent } from './views/books/books.component';
+import { SupportComponent } from './views/support/support.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { HeaderComponent } from './components/templates/header/header.component'
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    BooksComponent,
+    SupportComponent
   ],
   imports: [
     BrowserModule,
